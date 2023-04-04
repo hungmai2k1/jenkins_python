@@ -8,7 +8,7 @@ pipeline {
       steps {
         script {
           echo 'test'
-          bat 'py --version'
+          bat 'python --version'
         }
       }
     }
